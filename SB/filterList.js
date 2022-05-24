@@ -103,4 +103,5 @@ sbArr.push('5zjju; 59p56; 6jble; 3okv7; 52ytq; 6nuzz; 6nuuu; qs1q; 67rp8; 3okid;
 sbArr.push('65frl; 49hrm; 53esl; 16wei; 5jxq9; 15i90; 15iaz; 69c44; 15607; 154j4; 5zefd; 154l9; 154cs; 153ax; 152wa');
 sbArr.push('3v0c7; 14yu6; 14lpk; 14l1u; 6npyx; 6ax3e; 5s9sj; 5s9be');
 
-var filterList = sbArr.join('; ');
+var filterList = sbArr.join('; ').split('; ');
+console.log(filterList);
