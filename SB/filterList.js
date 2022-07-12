@@ -1,3 +1,3 @@
-var sbArr = [];
+var filterList = [];
 
-var filterList = sbArr.join('; ');
+//console.log(filterList);
